@@ -1,0 +1,154 @@
+body
+{
+	font-family       : Helvetica, Arial, sans-serif;
+}
+
+.kotak1
+{
+	width: 97.9%;
+	height: 4%;
+	background-color: white;
+	font-family       : Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	padding:1%;
+}
+
+.kotak2
+{
+	width: 80%;
+	height: 105%;
+	float:left;
+	background-color: Ivory;
+}
+
+.kotak3
+{
+	width: 20%;
+	height: 105%;
+	float: right;
+	background-color: rgb(204,229,255);
+}
+
+table
+{
+	border-collapse: collapse;
+	font-size: 0.8em;
+	width:100%;
+}
+
+td
+{
+	padding:5px;
+}
+
+button
+{
+	background-color:white;
+	cursor:pointer;
+	width:110px;
+	height:65px;
+	font-size:0.9em;
+	color:black;
+	padding:10px;
+	font-weight: bold;
+}
+
+button:hover
+{
+	background-color: rgb(250,235,215);
+	/*color:#fff;*/
+	border:2px solid 250,235,215;
+	
+}
+
+input.algo
+{
+	background-color:white;
+	cursor:pointer;
+	width:130px;
+	height:35px;
+	font-size:0.9em;
+	color:black;
+	padding:5px;
+	font-weight: bold;
+}
+
+input.algo:hover
+{
+	background-color: rgb(250,235,215);
+	/*color:#fff;*/
+	border:2px solid 250,235,215;	
+}
+
+button.anim
+{
+	background-color:#d9534f;
+	cursor:pointer;
+	width:130px;
+	height:35px;
+	font-size:0.8em;
+	color:White;
+	padding:5px;
+	font-weight: bold;
+	float:left;
+}
+
+button.anim:hover
+{
+	background-color: #c9302c;
+	color:#fff;
+	border:2px solid #ac2925;
+	
+}
+
+a
+{
+	text-decoration: none;
+	font-size: 0.6em;
+}
+
+.kotak4
+{
+	width: 100%;
+	height: 50%;
+	float: right;
+	background-color: rgb(204,229,255);
+}
+
+.customBox 
+{
+    background: yellow;
+    border: 1px solid black;
+    position: absolute;
+    padding:10px;
+}
+
+p 
+{
+	padding-top: 0px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:0px;
+	text-align: justify;
+	font-size: 1em;
+}
+
+.kotak8
+{
+	width: 92%;
+	height:40%;
+	background-color: rgb(224,255,255);
+	overflow-y:scroll; 
+	overflow-x:none;
+	padding : 10px;
+}
+
+.kotak9
+{
+	width: 92%;
+	height: 60%;
+	background-color: rgb(250,235,215);
+	overflow-y:scroll; 
+	overflow-x:scroll;
+	padding:10px;
+}
